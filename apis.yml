@@ -1,0 +1,63 @@
+aid: jobvite
+name: Jobvite
+description: >-
+  Jobvite, part of Employ Inc., is an applicant tracking system (ATS) and
+  recruiting platform that helps enterprises source, hire, and onboard talent.
+  The platform combines candidate relationship management, recruitment
+  marketing, branded career sites, and onboarding workflows. Jobvite provides
+  REST APIs that facilitate real-time data exchange in JSON for candidate
+  records, requisitions, applications, and the Onboard New Hire endpoint.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Applicant Tracking
+  - ATS
+  - Recruiting
+  - Human Resources
+  - Talent Acquisition
+  - Onboarding
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/jobvite/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: jobvite:rest-api
+    name: Jobvite REST API
+    description: >-
+      REST APIs for exchanging candidate, requisition, and application data
+      between Jobvite and external systems in JSON format. Includes the
+      Onboard New Hire API for pushing employee data into the Jobvite Onboard
+      module. Authentication is provided by API keys issued to integration
+      partners.
+    humanURL: https://help.jobvite.com/hc/en-us/sections/24681426999069-Integrations-API
+    baseURL: https://api.jobvite.com
+    tags:
+      - ATS
+      - Recruiting
+      - Candidates
+      - Onboarding
+    properties:
+      - type: Documentation
+        url: https://help.jobvite.com/hc/en-us/sections/24681426999069-Integrations-API
+      - type: API Overview
+        url: https://help.jobvite.com/hc/en-us/articles/8870636608925-Jobvite-API
+      - type: Onboard New Hire API
+        url: https://help.jobvite.com/hc/en-us/articles/22012542918813-Jobvite-Onboard-New-Hire-API
+
+common:
+  - type: Website
+    url: https://www.jobvite.com
+  - type: Documentation
+    url: https://help.jobvite.com
+  - type: Parent Company
+    url: https://www.employinc.com
+  - type: Pricing
+    url: https://www.jobvite.com/pricing
+  - type: Sign Up
+    url: https://www.jobvite.com/request-a-demo
+  - type: Support
+    url: https://help.jobvite.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
