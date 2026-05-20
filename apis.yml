@@ -46,6 +46,10 @@ apis:
         url: https://help.jobvite.com/hc/en-us/articles/22012542918813-Jobvite-Onboard-New-Hire-API
 
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Jobvite
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/jobvite
   - type: Website
     url: https://www.jobvite.com
   - type: Documentation
