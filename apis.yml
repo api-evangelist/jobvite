@@ -46,6 +46,8 @@ apis:
         url: https://help.jobvite.com/hc/en-us/articles/22012542918813-Jobvite-Onboard-New-Hire-API
 
 common:
+  - type: DomainSecurity
+    url: security/jobvite-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Jobvite
   - type: LinkedIn
@@ -62,6 +64,8 @@ common:
     url: https://www.jobvite.com/request-a-demo
   - type: Support
     url: https://help.jobvite.com
+  - url: https://www.jobvite.com/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
