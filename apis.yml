@@ -8,6 +8,17 @@ description: >-
   REST APIs that facilitate real-time data exchange in JSON for candidate
   records, requisitions, applications, and the Onboard New Hire endpoint.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
