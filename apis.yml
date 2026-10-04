@@ -33,6 +33,12 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jobvite.png
 tags:
   - Applicant Tracking
+  - Recruiting
+  - Human Resources
+  - Talent Acquisition
+  - Onboarding
+tags_raw:
+  - Applicant Tracking
   - ATS
   - Recruiting
   - Human Resources
@@ -55,6 +61,11 @@ apis:
     humanURL: https://help.jobvite.com/hc/en-us/sections/24681426999069-Integrations-API
     baseURL: https://api.jobvite.com
     tags:
+      - Applicant Tracking
+      - Recruiting
+      - Candidates
+      - Onboarding
+    tags_raw:
       - ATS
       - Recruiting
       - Candidates
